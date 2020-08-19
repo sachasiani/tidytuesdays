@@ -1,3 +1,11 @@
+# -------------------------------------------------------------------------
+# Project: Tidytuesday week 34
+# Date: 2020-08-18
+# Author: Sacha Siani (ssiani@indiana.edu)
+# -------------------------------------------------------------------------
+
+# Packages ----------------------------------------------------------------
+
 library(tidyverse)
 library(ggpubr)
 library(tidytuesdayR)

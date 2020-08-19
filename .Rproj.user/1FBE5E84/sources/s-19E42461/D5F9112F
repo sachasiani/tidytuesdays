@@ -1,25 +1,25 @@
 {
     "collab_server" : "",
     "contents" : "",
-    "created" : 1597804586421.000,
+    "created" : 1597825693104.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2622407957",
-    "id" : "8F08E047",
-    "lastKnownWriteTime" : 1597823581,
-    "last_content_update" : 1597823581988,
+    "hash" : "2604721677",
+    "id" : "D5F9112F",
+    "lastKnownWriteTime" : 1597825873,
+    "last_content_update" : 1597825873799,
     "path" : "C:/Users/Siani/Google Drive IU/github/tidytuesdays/source/s.plot.R",
     "project_path" : "source/s.plot.R",
     "properties" : {
-        "cursorPosition" : "8,58",
+        "cursorPosition" : "50,0",
         "scrollLine" : "0",
         "tempName" : "Untitled2"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 4,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

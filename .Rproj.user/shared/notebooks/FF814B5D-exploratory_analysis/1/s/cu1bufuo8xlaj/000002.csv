@@ -1,0 +1,13 @@
+"0","```r
+pam_norte %>%
+  ggplot(aes(x = year, y = rent)) +
+    facet_wrap(~product, nrow = 3, scales = \"free_y\") +
+    geom_col() +
+    geom_text(aes(label = round(rent, 2)), size = 2.5, vjust = 1.5, color = \"white\") +
+    scale_y_continuous(labels = comma) +
+    labs(x = element_blank(),
+         y = element_blank(),
+         title = \"Production value (thousands $/ha)\",
+         fill = element_blank(),
+         caption = \"Source: IBGE/PAM\")
+```"

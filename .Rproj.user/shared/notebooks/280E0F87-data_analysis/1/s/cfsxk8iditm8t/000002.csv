@@ -1,0 +1,9 @@
+"0","```r
+wf_subset %>% 
+  ggplot() +
+  geom_sf(data = amazon, fill = \"gray\", aes(color = \"Amazon\")) +
+  geom_sf(aes(fill = n), color = NA) +
+  scale_fill_viridis_c(option = \"inferno\",
+                       trans = scales::log10_trans()) +
+  labs(title = \"Number of fires in 2019\")
+```"

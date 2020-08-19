@@ -1,0 +1,12 @@
+"0","```r
+pevs_mun %>%
+  ggplot(aes(x = year, y = quantity)) +
+    facet_wrap(~municipality, nrow = 3, scales = \"free_y\") +
+    scale_y_continuous(labels = comma) +
+    geom_col() +
+    labs(x = element_blank(),
+         y = \"Quantity (t)\",
+         title = \"AÃ§aÃ­ (Fruit)\",
+         caption = \"Source: IBGE/PEVS\")
+
+```"

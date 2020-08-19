@@ -1,0 +1,13 @@
+"0","```r
+selection <- c(13600002, 13470000, 17350000, 17345000, 14280001)
+
+wf_subset %>% 
+  filter(code %in% selection) %>%
+  ggplot() +
+  geom_sf(data = amazon, fill = \"gray\", aes(color = \"Amazon\")) +
+  geom_sf(aes(fill = as.character(round(perc_antropic_2018, 0))), color = NA) +
+  scale_fill_viridis_d(option = \"inferno\") +
+  labs(title = \"Selection\",
+       color = \"\", fill = \"Deforestation (%)\") +
+  theme(legend.position = \"top\")
+```"

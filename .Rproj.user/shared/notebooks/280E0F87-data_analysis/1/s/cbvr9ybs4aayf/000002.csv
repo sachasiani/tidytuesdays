@@ -1,0 +1,6 @@
+"0","```r
+summary(wf_subset$n)
+```"
+"1","   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   0.00    0.00    3.00   13.53   17.00  247.00 
+"

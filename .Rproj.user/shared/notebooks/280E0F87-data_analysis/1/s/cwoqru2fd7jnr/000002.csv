@@ -1,0 +1,13 @@
+"0","```r
+hydro_subset %>%
+  ggplot(aes(value_mmd, color = as.character(post), group = post)) +
+  facet_wrap(vars(perc_antropic_2018), scales = \"free\") +
+  stat_ecdf(size = 1.2) +
+  scale_x_log10(labels = scales::trans_format(\"log10\", scales::math_format(10^.x))) +
+  scale_colour_viridis_d() +
+  labs(title = \"Empirical cumulative distribution function\",
+       y = \"Cumulative Frequency\",
+       x = expression(mm~d^{-1}),
+       color = \"Post deforestation decline (2004)\") + 
+  theme(legend.position = \"top\")
+```"

@@ -1,0 +1,8 @@
+"0","```r
+ggplot() +
+  geom_sf(data = amazon, fill = \"palegreen3\", aes(color = \"Amazon\")) +
+  ggnewscale::new_scale_color() +
+  geom_sf(data = pts, aes(color = CODIGO)) +
+  scale_fill_manual(values = \"palegreen3\") +
+  labs(title = \"Spatial distribution of the stations\")
+```"

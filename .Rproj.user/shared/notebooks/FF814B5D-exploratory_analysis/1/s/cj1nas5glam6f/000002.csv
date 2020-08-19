@@ -1,0 +1,7 @@
+"0","```r
+na.omit(pam_norte) %>%
+  group_by(product) %>%
+  summarise(planted_area = sum(planted_area),
+            value_usd = sum(value_usd)) %>%
+  mutate(rent = value_usd / planted_area)
+```"

@@ -1,0 +1,12 @@
+"0","```r
+p2 <- pevs_norte %>%
+  ggplot(aes(x = year, y = value_usd, fill = group)) +
+    facet_wrap(~product, nrow = 4, scales = \"free_y\") +
+    geom_col() +
+    scale_y_continuous(labels = comma) +
+    labs(x = element_blank(),
+         y = \"Value (thousands $)\",
+         fill = element_blank(),
+         caption = \"Source: IBGE/PEVS\");p2
+
+```"

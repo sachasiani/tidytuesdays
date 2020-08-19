@@ -1,0 +1,12 @@
+"0","```r
+is_outlier <- function(x) {
+  return(x < quantile(x, 0.25) - 1.5 * IQR(x) | x > quantile(x, 0.75) + 1.5 * IQR(x))
+}
+
+wf_subset %>%
+  mutate(outlier = ifelse(is_outlier(n), code, as.numeric(NA))) %>%
+  ggplot(aes(y = n, x = 0, label = outlier)) +
+  geom_boxplot() + 
+  geom_text(na.rm = TRUE, hjust = -0.3) +
+  scale_y_continuous(breaks = seq(0, 60, 10))
+```"

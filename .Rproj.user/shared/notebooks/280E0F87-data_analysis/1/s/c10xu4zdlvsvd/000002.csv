@@ -1,0 +1,6 @@
+"0","```r
+wf_subset %>%
+  ggplot(aes(antropic_2018)) +
+  geom_histogram() +
+  labs(x = \"Accumulated desforested area (ha)\")
+```"

@@ -1,0 +1,4 @@
+"0","```r
+hydro <- hydro %>%
+  mutate(value_mmd = value / (area * 1e6) * 24 * 60 * 60 * 1000)
+```"

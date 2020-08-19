@@ -1,0 +1,9 @@
+"0","```r
+wf %>%
+  ggplot(aes(area)) +
+  geom_histogram() +
+  scale_x_log10() +
+  labs(title = \"Histogram of watersheds' area\",
+       x = \"area (sq. km)\")
+
+```"

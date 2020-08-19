@@ -1,0 +1,13 @@
+"0","```r
+wf_subset %>%
+  select(ends_with(\"2018\")) %>%
+  summary()
+```"
+"1"," antropic_2018      cloud_2018  forest_2018      nforest_2018      perc_antropic_2018          geometry  
+ Min.   :     0   Min.   :0    Min.   :     0   Min.   :     0.0   Min.   : 0.000     MULTIPOLYGON :215  
+ 1st Qu.:  1456   1st Qu.:0    1st Qu.:  6946   1st Qu.:   135.1   1st Qu.: 3.792     epsg:NA      :  0  
+ Median :  6524   Median :0    Median : 20157   Median :   797.0   Median :25.854     +proj=aea ...:  0  
+ Mean   : 21736   Mean   :0    Mean   : 36874   Mean   :  8477.6   Mean   :32.869                        
+ 3rd Qu.: 35891   3rd Qu.:0    3rd Qu.: 48119   3rd Qu.:  4342.0   3rd Qu.:63.831                        
+ Max.   :134241   Max.   :0    Max.   :162693   Max.   :115766.7   Max.   :90.229                        
+"

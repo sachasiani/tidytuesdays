@@ -1,0 +1,13 @@
+"0","```r
+selection <- hydro_summary2$code
+
+wf_subset %>% 
+  filter(code %in% selection) %>%
+  ggplot() +
+  geom_sf(data = amazon, fill = \"gray\", aes(color = \"Amazon\")) +
+  geom_sf(aes(fill = as.character(n)), color = NA) +
+  scale_fill_viridis_d(option = \"inferno\") +
+  labs(title = \"Selection\",
+       color = \"\", fill = \"Active fire pixels\") +
+  theme(legend.position = \"top\")
+```"

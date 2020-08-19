@@ -1,0 +1,22 @@
+"0","```r
+order <- pam_mun %>%
+  group_by(municipality) %>%
+  summarise(quantity = sum(quantity, na.rm = T)) %>%
+  arrange(desc(quantity))
+
+pam_mun %>%
+  filter(municipality %in% order$municipality[1:16]) %>%
+  mutate(municipality = factor(municipality, levels = order$municipality[1:16])) %>%
+  
+  ggplot(aes(x = year, y = quantity)) +
+    facet_wrap(~municipality,
+               # scales = \"free_y\",
+               nrow = 4) +
+    geom_col() +
+    scale_y_continuous(labels = comma) +
+    labs(x = element_blank(),
+         y = \"Quantity (t)\",
+         fill = element_blank(),
+         caption = \"Source: IBGE/PAM\")
+
+```"

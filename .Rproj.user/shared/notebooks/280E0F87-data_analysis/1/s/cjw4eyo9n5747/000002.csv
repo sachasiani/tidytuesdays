@@ -1,0 +1,5 @@
+"0","```r
+wf_subset %>%
+  ggplot(aes(x = perc_antropic_2018, y = n / area)) +
+  geom_point()
+```"

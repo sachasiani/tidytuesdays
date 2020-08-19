@@ -1,0 +1,8 @@
+"0","```r
+wf_subset %>%
+ggplot() +
+  geom_sf(data = amazon, fill = \"palegreen3\", aes(color = \"Amazon\")) +
+  geom_sf(aes(fill = code)) +
+  scale_fill_viridis_c() +
+  labs(title = \"Spatial distribution of the selected watersheds\")
+```"

@@ -1,0 +1,12 @@
+"0","```r
+p4 <- pevs_states %>%
+  ggplot(aes(x = year, y = value_usd)) +
+    facet_wrap(~state, nrow = 3, scales = \"free_y\") +
+    scale_y_continuous(labels = comma) +
+    geom_col() +
+    labs(x = element_blank(),
+         y = \"Value (thousands $)\",
+         title = \"AÃ§aÃ­ (Fruit)\",
+         caption = \"Source: IBGE/PEVS\");p4
+
+```"

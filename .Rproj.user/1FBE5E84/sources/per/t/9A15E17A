@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1597811872219.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2418210338",
+    "id" : "9A15E17A",
+    "lastKnownWriteTime" : 1596133697,
+    "last_content_update" : 1597811875886,
+    "path" : "C:/Users/Siani/Google Drive IU/IU_PhD/paper-fire_and_water/work/source/data_analysis.Rmd",
+    "project_path" : null,
+    "properties" : {
+        "chunk_output_type" : "inline",
+        "cursorPosition" : "35,2",
+        "scrollLine" : "9"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

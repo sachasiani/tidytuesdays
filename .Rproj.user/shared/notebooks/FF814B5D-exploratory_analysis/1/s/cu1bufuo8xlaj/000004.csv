@@ -1,0 +1,7 @@
+"0","```r
+
+ggsave(filename = \"pam-production_value.png\", path = \"../figs/\",
+       device = \"png\", dpi = 300,
+       width = 150, height = 150, units = \"mm\")
+
+```"
